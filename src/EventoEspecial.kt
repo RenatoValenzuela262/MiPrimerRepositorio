@@ -11,7 +11,7 @@ class EventoEspecial:Proyeccion{
     override fun obtenerInformacion(): String = """
         EVENTO ESPECIAL:
         Título: $titulo
-        Gender: $genero
+        Genero: $genero
         Duracion: $duracion
         Tipo de evento: $tipoEvento
         Artista: $artista
