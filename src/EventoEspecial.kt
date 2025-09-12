@@ -3,7 +3,7 @@ class EventoEspecial:Proyeccion{
     val tipoEvento: String
     val artista:String
 
-    constructor(titulo:String, genero:String, duracion:String, tipoEvento:String, artista:String ):super(titulo,genero,duracion){
+    constructor(titulo:String, genero:String, duracion:String, asientos: MutableList<String>, tipoEvento:String, artista:String ):super(titulo,genero,duracion,asientos){
         this.tipoEvento = tipoEvento
         this.artista = artista
     }
